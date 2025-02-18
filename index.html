@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <title>Dashboard - nykzx</title>
+</head>
+<body>
+    <main>
+        <section class="container" id="container-sections" data-tilt data-tilt-max="4">
+            <header>
+                <img id="profile-img">
+                <h1>nykzx</h1>
+            </header>
+            
+            <section class="information">
+                <div class="sections" id="profile" onclick="openContainer('profile', 'profile-arrow')">
+                    <header class="header-section">
+                        <h2>Profile</h2>
+                        <img src="assets/images/icons/arrow-down.png" id="profile-arrow">
+                    </header>
+
+                    <div class="infos">
+                        <p><img src="assets/images/icons/user.png">Luis Fernando</p>
+
+                        <p><img src="assets/images/icons/calendar.png">16 Years</p>
+
+                        <p id="subtitle"><img src="assets/images/icons/citation.png"></p>
+                    </div>
+                </div>
+
+                <div class="sections" id="projects" onclick="openContainer('projects', 'projects-arrow')">
+                    <header class="header-section">
+                        <h2>Projects</h2>
+                        <img src="assets/images/icons/arrow-down.png" id="projects-arrow">
+                    </header>
+
+                    <div class="infos">
+                        <a href="https://github.com/nykzx/love-optimizer" class="project-love">
+                            <div class="div-project-love">
+                                <h2>愛</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="sections" id="social" onclick="openContainer('social', 'social-arrow')">
+                    <header class="header-section">
+                        <h2>Social Media</h2>
+                        <img src="assets/images/icons/arrow-down.png" id="social-arrow">
+                    </header>
+
+                    <div class="infos">
+                        <a href="https://github.com/nykzx"><p><img src="assets/images/icons/social/github.png"> Github</p></a>
+
+                        <a href="https://www.instagram.com/nykzx.lnx/"><p><img src="assets/images/icons/social/instagram.png"> Instagram</p></a>
+
+                        <a href="https://www.youtube.com/channel/UCLDNLLIGRpETaagrKt1wkkA"><p><img src="assets/images/icons/social/youtube.png"> Youtube</p></a>
+                    </div>
+                </div>
+
+            </section>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+    <script type="text/javascript" src="assets/functions/vanilla.js"></script>
+</body>
+</body>
+</html>
