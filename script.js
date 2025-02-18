@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(data => {
             // Acessa o link da imagem do avatar
             const avatarImageUrl = data.data.profile.avatar_image;
-            const subtitleText = data.data.profile.bio;
+            const subtitleText = data.data.profile.status;
 
             // Atualiza o src da imagem no perfil
             const profileImage = document.getElementById('profile-img');
