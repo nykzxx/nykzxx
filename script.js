@@ -13,7 +13,6 @@ function openContainer(objContainer, imageID){
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    // Supondo que a URL da API seja esta
     fetch('https://api.audibert.rest/user/1334337207326216322')
         .then(response => response.json())
         .then(data => {
